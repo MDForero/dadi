@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "animate.css"
 import './App.css';
+import "animate.css"
 import Layout from './components/Layout';
 import Inicio from './pages/Inicio';
 import Contacto from './pages/Contacto';

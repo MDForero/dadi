@@ -3,7 +3,10 @@ import React from 'react'
 const Packages = () => {
     return (<>
         <div className='section packages'>
-            <h1>Paquetes y precios</h1>
+            <div className='title'>
+            <h6>Elige un paquete</h6>
+            <h1>Paquetes</h1>
+            </div>
             <section className='card-services'>
                 <article className='package translateY'>
                     <div className='price'>

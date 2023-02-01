@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Packages from '../components/Packages'
+import Services from '../components/Services'
 
 
 const Servicios = () => {
@@ -15,6 +16,7 @@ const Servicios = () => {
           </ul>
         </div>
     </section>
+    <Services/>
       <Packages />
     </>
   )

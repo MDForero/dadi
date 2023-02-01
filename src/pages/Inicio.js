@@ -15,7 +15,7 @@ import Hacemos from '../components/Hacemos'
 const Inicio = () => {
   return (
     <div>
-      <div className='section' id='inicio'>
+      <div id='inicio'>
         <section className='somos'>
           <div className='w-800 self-end'>
             <h2>Nuestro trabajo destaca por:</h2>
@@ -52,7 +52,7 @@ const Inicio = () => {
       </div>
       <div className='section'>
 
-      <section className='hacemos'> 
+      <section className='section hacemos'> 
           <article> 
             <h1>La calidad de nuestro servicio es excepcional</h1>
             <p>Ya que somos un equipo que está en constante preparación, lo que nos permite estar a la vanguardia y así poder ofrecerle un producto de alto valor a un bajo costo</p>
@@ -62,11 +62,9 @@ const Inicio = () => {
           </figure>
       </section>
       </div>
-      <div className='section services'>
-        <h6>Lo que hacemos:</h6>
-        <h1>Soluciones tecnológicas</h1>
+      
         <Services />
-      </div>
+      
       <Packages />
       <div className='section'>
         <Companies/>
