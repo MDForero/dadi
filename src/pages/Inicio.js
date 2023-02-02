@@ -18,14 +18,14 @@ const Inicio = () => {
     <div>
       <div id='inicio'>
         <section className='somos'>
-          <div className='w-800 self-end'>
+          <div>
             <h1>Nuestro trabajo destaca por:</h1>
             <p>ser una empresa de desarrollo web, ubicada en Casanare. Nuestra misión es ayudar a </p>
             <Link to="contacto" className='btn btn-success'>Contáctenos</Link>
             <Link to="servicios" className='btn btn-success'>Servicios</Link>
           </div>
-          <figure className='figure-somos flex'>
-            <img src={inicio} width="100%" />
+          <figure className='figure'>
+            <img src={inicio} width="100%"/>
           </figure>
         </section>
         <div className='shape'>
@@ -55,7 +55,7 @@ const Inicio = () => {
       </div>
       <div className='section'>
 
-      <section className='section hacemos'> 
+      <section className='section flex-around-center'> 
           <article> 
             <h1>La calidad de nuestro servicio es excepcional</h1>
             <p>Ya que somos un equipo que está en constante preparación, lo que nos permite estar a la vanguardia y así poder ofrecerle un producto de alto valor a un bajo costo</p>

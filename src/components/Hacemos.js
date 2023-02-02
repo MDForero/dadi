@@ -11,7 +11,7 @@ const Hacemos = () => {
                 <h1>Nosotros destacamos por ser</h1>
                 <p>Un equipo de profesionales altamente <strong>cualificados, enérgicos y dedicados</strong> que se comprometen a ofrecer un servicio excepcional. Tanto si se trata de crear nuevos sitios Web que se adapten perfectamente a sus necesidades como de reconstruir sitios existentes para que cumplan sus exigentes estándares, siempre antepondremos su éxito.</p>
             </article>
-            <div className='col-2'>
+            <div>
                 <figure className='cuadro' >
                     <img src={hacemos} alt="" className='img-somos' />
                 </figure>
