@@ -11,6 +11,7 @@ import Companies from '../components/Companies'
 import hacemos from "../images/quienes somos.jpg"
 import hacemos2 from "../images/group-of-people-working-on-website-template (1).jpg"
 import Hacemos from '../components/Hacemos'
+import { Link } from 'react-router-dom'
 
 const Inicio = () => {
   return (
@@ -18,8 +19,10 @@ const Inicio = () => {
       <div id='inicio'>
         <section className='somos'>
           <div className='w-800 self-end'>
-            <h2>Nuestro trabajo destaca por:</h2>
+            <h1>Nuestro trabajo destaca por:</h1>
             <p>ser una empresa de desarrollo web, ubicada en Casanare. Nuestra misión es ayudar a </p>
+            <Link to="contacto" className='btn btn-success'>Contáctenos</Link>
+            <Link to="servicios" className='btn btn-success'>Servicios</Link>
           </div>
           <figure className='figure-somos flex'>
             <img src={inicio} width="100%" />
