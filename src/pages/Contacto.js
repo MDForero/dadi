@@ -1,5 +1,5 @@
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faMailBulk, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faMailBulk, faMapLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { FloatingLabel } from 'react-bootstrap'
@@ -47,6 +47,13 @@ const Contacto = () => {
               <p>+57 310 885 4737</p>
             </div>
           </a>
+          <a className='service' href="https://goo.gl/maps/c7otYvFYYuPLUqhA8">
+            <FontAwesomeIcon icon={faMapLocationDot} size="3x" />
+            <div>
+              <h4>Oficina</h4>
+              <p>Calle 19 #10-73</p>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -81,7 +88,11 @@ const Contacto = () => {
           <button type='submit' className="btn btn-success">Enviar</button>
         </form>
       </section>
-      <section className='flex section'>
+      <section className='section'>
+        <div className='title'>
+          <h6>Punto físico</h6>
+          <h1>Oficina</h1>
+        </div>
         <div className='container'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.4601155259769!2d-72.89597833864799!3d4.878917214134846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6ad33c51110f4d%3A0x3da6e7b3ba7ebaf7!2sDADI%20soluciones%20tecnol%C3%B3gicas!5e0!3m2!1ses-419!2sco!4v1675195784812!5m2!1ses-419!2sco" width="100%" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
