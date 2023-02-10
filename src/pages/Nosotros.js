@@ -8,7 +8,7 @@ import inicio from "../assets/web-programming.png"
 const Nosotros = () => {
   return (
     <>
-      <section className='banner' id='nosotros'>
+      <main id='nosotros'>
         <div>
           <h1>Nosotros</h1>
           <ul>
@@ -16,7 +16,7 @@ const Nosotros = () => {
             <li>Nosotros</li>
           </ul>
         </div>
-      </section>
+      </main>
       <Hacemos />
     </>
   )

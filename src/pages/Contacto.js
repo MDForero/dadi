@@ -11,7 +11,7 @@ import inicio from "../assets/web-programming.png"
 const Contacto = () => {
   return (
     <>
-      <section className='banner' id="contacto">
+      <main id="contacto">
         <div>
           <h1>Contacto</h1>
           <ul>
@@ -19,7 +19,7 @@ const Contacto = () => {
             <li>Contacto</li>
           </ul>
         </div>
-      </section>
+      </main>
       <section className='section'>
         <div className='title'>
           <h6>Información de contacto</h6>

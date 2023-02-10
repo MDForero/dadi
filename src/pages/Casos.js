@@ -8,7 +8,7 @@ import inicio from "../assets/web-programming.png"
 const Casos = () => {
   return (
     <>
-      <section className='banner' id="casos">
+      <main  id="casos">
       <div>
           <h1>Casos de éxito</h1>
           <ul>
@@ -16,7 +16,7 @@ const Casos = () => {
             <li>Casos de éxito</li>
           </ul>
         </div>
-      </section>
+      </main>
         <Companies/>
     </>
   )

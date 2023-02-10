@@ -60,7 +60,7 @@ video{
 }
 
 
-.banner {
+main {
   min-height: 70vh;
   display: flex;
   justify-content: center;
@@ -68,14 +68,14 @@ video{
   color: white;
 }
 
-.banner ul {
+main ul {
   padding-left: 0;
   list-style-type: none;
   margin-top: 12px;
   margin-bottom: 0;
 }
 
-.banner ul li {
+main ul li {
   color: #ffffff;
   display: inline-block;
   position: relative;
@@ -102,12 +102,18 @@ video{
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.flex .w-600{
+  align-self: center;
+}
+
 .flex-around-center{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
+
+
 
 .pie {
   padding: 30px 20px;
@@ -191,8 +197,8 @@ video{
 
 .title {
   text-align: center;
-  margin-bottom: 65px;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 .title h1{
   font-size: 40px;
@@ -212,6 +218,9 @@ video{
 #inicio{
   position: relative;
   background-color: #E8E2E2;
+}
+.blog-drone ul{
+  list-style-image: url("./assets/dron-de-camara-24px.png");  
 }
 
 .somos {
@@ -403,8 +412,15 @@ figure img{
   width: 100%;
 }
 
+.w-400{
+  max-width: 400px;
+}
+
 .w-600 {
   max-width: 600px;
+}
+.w-800{
+  max-width: 800px;
 }
 
 img {
@@ -439,8 +455,9 @@ img {
 
 
 
+
 @media only screen and (max-width: 768px) {
-  .banners {
+  mains {
     flex-direction: column;
   }
 

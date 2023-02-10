@@ -17,7 +17,7 @@ const Layout = () => {
             left: 0, 
             behavior: 'smooth' 
         });
-        console.log(location)
+        
     }, [location]);
 
     useEffect(() => {

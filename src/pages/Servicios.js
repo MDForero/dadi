@@ -7,7 +7,7 @@ import Services from '../components/Services'
 const Servicios = () => {
   return (
     <>
-    <section className='banner' id="servicios">
+    <main id="servicios">
     <div>
           <h1>Servicios</h1>
           <ul>
@@ -15,7 +15,7 @@ const Servicios = () => {
             <li>Servicios</li>
           </ul>
         </div>
-    </section>
+    </main>
     <Services/>
       <Packages />
     </>
