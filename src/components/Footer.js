@@ -9,9 +9,9 @@ const Footer = () => {
                 <h3>Nosotros</h3>
                 <p>Creemos en la prestación de servicios de calidad con un compromiso de excelencia. Como una de las empresas líderes en Casanare, nos hemos ganado una excelente reputación por nuestras soluciones innovadoras y estratégicas, así como por nuestro alto nivel técnico. Nos sentimos muy orgullosos de entregar con éxito proyectos a tiempo y dentro del presupuesto.</p>
                 <ul className='list-inline'>
-                    <li><a><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
-                    <li><a><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
-                    <li><a><FontAwesomeIcon icon={faInstagram} size="2x" /></a></li>
+                    <li><a href=''><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
+                    <li><a href=''><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
+                    <li><a href=''><FontAwesomeIcon icon={faInstagram} size="2x" /></a></li>
                 </ul>
             </div>
             <div>
