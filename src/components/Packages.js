@@ -5,8 +5,8 @@ const Packages = () => {
     return (<>
         <div className='section packages'>
             <div className='title'>
-            <h6>Elige un paquete</h6>
-            <h1>Paquetes</h1>
+                <h6>Elige un paquete</h6>
+                <h1>Paquetes</h1>
             </div>
             <section className='card-services'>
                 <article className='package translateY'>
@@ -15,17 +15,14 @@ const Packages = () => {
                         <h3>Landing page</h3>
                     </div>
                     <ul>
-                        <li>Sitio web estático en HTML5</li>
-                        <li>Redes: Facebook y Twitter</li>
-                        <li>Hasta 2 Secciones internas</li>
-                        <li>1 Formulario de Contacto</li>
-                        <li>3 Cuentas de E-mail</li>
-                        <li>Hosting 500MB</li>
-                        <li>Registro Dominio Principal</li>
-                        <li>Certificado de sitio seguro</li>
-                        <li>Desarrollo en 5 días.</li>
+                        <li>Diseño personalizado y atractivo</li>
+                        <li>Página de inicio optimizada para la conversión</li>
+                        <li>Página "Acerca de nosotros"</li>
+                        <li>Página de contacto con formulario de correo electrónico integrado</li>
+                        <li>Integración de Google Maps para mostrar la ubicación de su negocio</li>
+                        <li>Optimización para motores de búsqueda (SEO) básica</li>
                     </ul>
-                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de landing page" target="_blank"  className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
+                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de landing page" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
                 </article>
                 <article className='package translateY'>
                     <div className='price'>
@@ -34,20 +31,14 @@ const Packages = () => {
                         <h3>Pagina web</h3>
                     </div>
                     <ul>
-                        <li>Sitio web Administrado en HTML5 o CMS</li>
-                        <li>Actualización: 1 por mes</li>
-                        <li>Banner tipo Slider en el Home</li>
-                        <li>Integración de Redes Sociales</li>
-                        <li>Hasta 5 Secciones internas</li>
-                        <li>Sección de galería responsive</li>
-                        <li>1 Formulario de Contacto</li>
-                        <li>5 Cuentas de E-mail</li>
-                        <li>Hosting 2.000MB</li>
-                        <li>Registro Dominio Principal</li>
-                        <li>Certificado de sitio seguro</li>
-                        <li>Desarrollo en 10 días.</li>
+                        <li>Todo lo incluido en el paquete básico</li>
+                        <li>Galería de imágenes o productos</li>
+                        <li>Integración de un blog para publicar contenido actualizado</li>
+                        <li>Integración de las redes sociales</li>
+                        <li>Integración de una tienda en línea con carrito de compras</li>
+                        <li>Optimización para motores de búsqueda (SEO) avanzada</li>
                     </ul>
-                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de pagina web" target="_blank"  className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
+                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de pagina web" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
                 </article>
                 <article className="package translateY">
                     <div className='price'>
@@ -55,22 +46,14 @@ const Packages = () => {
                         <h3>Pagina web avanzada</h3>
                     </div>
                     <ul>
-                        <li>Sitio web Administrable en HTML5 o CMS</li>
-                        <li>Banner tipo Slider Dinámico en el Home</li>
-                        <li>Integración de Redes Sociales</li>
-                        <li>Hasta 10 Secciones Internas</li>
-                        <li>Carga de hasta 50 productos</li>
-                        <li>Sección de galería responsive</li>
-                        <li>Gestión Google Business</li>
-                        <li>1 Formulario de Contacto</li>
-                        <li>10 Cuentas de E-mail</li>
-                        <li>Hosting 10.000MB</li>
-                        <li>Registro Dominio Principal</li>
-                        <li>Una infografía Comercial</li>
-                        <li>Certificado de sitio seguro</li>
-                        <li>Desarrollo en 15 días.</li>
+                        <li>Todo lo incluido en los paquetes básico e intermedio</li>
+                        <li>Página personalizada para cada sección de su sitio</li>
+                        <li>Integración de funcionalidades personalizadas (por ejemplo, una sección de FAQ, una sección de recursos, etc.)</li>
+                        <li>Integración de un sistema de seguimiento de clientes y análisis de datos</li>
+                        <li>Integración de un sistema de correo electrónico marketing</li>
+                        <li>Optimización para motores de búsqueda (SEO) avanzada y monitoreo continuo</li>
                     </ul>
-                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de web avanzada" target="_blank"  className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
+                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de web avanzada" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
                 </article>
             </section>
         </div>

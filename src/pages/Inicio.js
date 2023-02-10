@@ -56,9 +56,10 @@ const Inicio = () => {
       <div className='section'>
 
       <section className='section flex-around-center'> 
-          <article> 
+          <article className='w-600'> 
             <h1>La calidad de nuestro servicio es excepcional</h1>
-            <p>Ya que somos un equipo que está en constante preparación, lo que nos permite estar a la vanguardia y así poder ofrecerle un producto de alto valor a un bajo costo</p>
+            <p>Ya que somos un equipo que está en constante preparación, lo que nos permite estar a la vanguardia y así poder ofrecerle un producto de alto valor a un precio competitivo</p>
+            <p>Además, nuestra dedicación a la excelencia y la innovación nos permite estar siempre un paso adelante de la competencia, ofreciéndole a nuestros clientes soluciones eficientes y de alta calidad. Estamos comprometidos a mantener un alto estándar de calidad en todo lo que hacemos, desde la investigación y desarrollo hasta la entrega y el servicio al cliente. Con nuestro enfoque en la satisfacción del cliente y la mejora continua, podemos asegurarle una experiencia única y memorable.</p>
           </article>
           <figure className='img-calidad'>
             <img  src={hacemos2}/>
