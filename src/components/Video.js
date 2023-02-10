@@ -4,9 +4,7 @@ import video from "../assets/video-drone.mp4"
 
 const Video = () => {
     return (
-        <div className='section'>
-            <video src={video} width="100%" autoPlay muted loop></video>
-        </div>
+        <video src={video} autoPlay muted loop></video>
     )
 }
 

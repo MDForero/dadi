@@ -1,8 +1,13 @@
 import React from 'react'
+import Video from '../../components/Video'
 
 const VideoDrone = () => {
   return (
-    <div>VideoDrone</div>
+    <div>
+        <main className='relative'>
+            <Video/>
+        </main>        
+    </div>
   )
 }
 

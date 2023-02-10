@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import Footer from './Footer';
+import logo from "../assets/DADI.png"
 
 const Layout = () => {
     const [navbarColor, setNavbarColor] = useState('white');
@@ -16,6 +17,7 @@ const Layout = () => {
             left: 0, 
             behavior: 'smooth' 
         });
+        console.log(location)
     }, [location]);
 
     useEffect(() => {
@@ -24,7 +26,7 @@ const Layout = () => {
                 setNavbarColor('white sticky-top');
                 setDadi("")
             } else {
-                setNavbarColor('white ');
+                setNavbarColor('transparent fixed-top');
                 setDadi("dadi")
             }
         }
@@ -37,7 +39,7 @@ const Layout = () => {
     return (<>
         <Navbar collapseOnSelect expand="lg" expanded={collapsed} className={navbarColor} variant="dark" >
             <Container>
-                <Navbar.Brand href="/"><strong className={dadi}>DADI</strong> soluciones tecnológicas</Navbar.Brand>
+                <Navbar.Brand href="/"><img src={logo} height="50px"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"  onClick={() => setCollapsed(!collapsed)}/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="m-auto">

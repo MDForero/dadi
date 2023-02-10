@@ -12,6 +12,10 @@ body {
   font-family: "Catamaran", sans-serif;
 }
 
+.relative {
+  position:relative;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -32,14 +36,20 @@ h6 {
   background-color: transparent;
   color: white;
 }
+.navbar a{
+  font-size: 1.5rem;
+}
 
 .white {
   background-color: #321375;
   color: white;
   transition: 0.5ms;
 }
-
-
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
 
 .section {
   position: relative;

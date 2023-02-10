@@ -64,7 +64,6 @@ const Inicio = () => {
             <img  src={hacemos2}/>
           </figure>
       </section>
-      <Video/>
       
         <Services />
       
