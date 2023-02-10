@@ -45,7 +45,8 @@ h6 {
   position: relative;
   padding: 20px 10px;
   background-color: #fafbfc;
-  ;
+  max-width: 1280px;
+  margin: 0px auto;
 }
 
 

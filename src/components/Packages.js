@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Packages = () => {
     return (<>
@@ -11,7 +12,7 @@ const Packages = () => {
                 <article className='package translateY'>
                     <div className='price'>
                         <h2>550.000$ </h2>
-                        <h3>Pyme (Landing page) </h3>
+                        <h3>Landing page</h3>
                     </div>
                     <ul>
                         <li>Sitio web estático en HTML5</li>
@@ -24,7 +25,7 @@ const Packages = () => {
                         <li>Certificado de sitio seguro</li>
                         <li>Desarrollo en 5 días.</li>
                     </ul>
-                    <button className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></button>
+                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola"  className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
                 </article>
                 <article className='package translateY'>
                     <div className='price'>
@@ -46,7 +47,7 @@ const Packages = () => {
                         <li>Certificado de sitio seguro</li>
                         <li>Desarrollo en 10 días.</li>
                     </ul>
-                    <button className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></button>
+                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola"  className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
                 </article>
                 <article className="package translateY">
                     <div className='price'>
@@ -69,7 +70,7 @@ const Packages = () => {
                         <li>Certificado de sitio seguro</li>
                         <li>Desarrollo en 15 días.</li>
                     </ul>
-                    <button className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></button>
+                    <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola"  className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
                 </article>
             </section>
         </div>
