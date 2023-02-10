@@ -311,7 +311,7 @@ p {
 
 .service {
   margin: 0px auto;
-  padding: 0px 20px;
+  padding: 20px 20px;
   display: grid;
   gap: 1rem;
   background-color: rgb(240, 243, 246);
