@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { FloatingLabel } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import shape from "../images/home-bottom-shape.png"
-import inicio from "../images/web-programming.png"
+import shape from "../assets/home-bottom-shape.png"
+import inicio from "../assets/web-programming.png"
 
 
 const Contacto = () => {

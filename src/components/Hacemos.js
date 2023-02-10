@@ -1,6 +1,6 @@
 import React from 'react'
-import hacemos from "../images/quienes somos.jpg"
-import hacemos2 from "../images/group-of-people-working-on-website-template (1).jpg"
+import hacemos from "../assets/quienes somos.jpg"
+import hacemos2 from "../assets/group-of-people-working-on-website-template (1).jpg"
 
 
 

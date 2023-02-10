@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Companies from '../components/Companies'
-import shape from "../images/home-bottom-shape.png"
-import inicio from "../images/web-programming.png"
+import shape from "../assets/home-bottom-shape.png"
+import inicio from "../assets/web-programming.png"
 
 
 const Casos = () => {

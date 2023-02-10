@@ -1,10 +1,11 @@
 import React from 'react'
-import browser from "../images/browser.png"
-import seo from "../images/seo.png"
-import programming from "../images/programing.png"
-import mantenimiento from "../images/mantenimiento-web.png"
-import ecommerce from "../images/telefono-inteligente.png"
-import drone from "../images/dron-de-camara.png"
+import browser from "../assets/browser.png"
+import seo from "../assets/seo.png"
+import programming from "../assets/programing.png"
+import mantenimiento from "../assets/mantenimiento-web.png"
+import ecommerce from "../assets/telefono-inteligente.png"
+import drone from "../assets/dron-de-camara.png"
+import { Link } from 'react-router-dom'
 
 
 const Services = () => {
@@ -45,6 +46,7 @@ const Services = () => {
             <img src={drone} alt="" className='img-services' />
             <h3>Video y fotografía con drone</h3>
             <p>Tomamos videos en 4k y fotografía aerea de alta resolución, contenido que utilizamos para su pagina web y redes sociales dandole otra vista a su empresa. Además, nos enfocamos en capturar la esencia de tu negocio y crear contenido que refleje tus valores y objetivos. </p>
+            <Link className='btn btn-success' to='/video-drone'>Leer más</Link>
           </article>
           
         </section>

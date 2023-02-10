@@ -8,6 +8,7 @@ import Contacto from './pages/Contacto';
 import Servicios from './pages/Servicios';
 import Casos from './pages/Casos';
 import Nosotros from './pages/Nosotros';
+import VideoDrone from './pages/services/VideoDrone';
 
 export const App = () => {
   return(<div>
@@ -16,6 +17,7 @@ export const App = () => {
         <Route index element={<Inicio/>}/>
         <Route path='contacto' element={<Contacto/>}/>
         <Route path="servicios" element={<Servicios/>}/>
+        <Route path="servicios/video-drone" element={<VideoDrone/>}/>
         <Route path="casos-de-exito" element={<Casos/>}/>
         <Route path='nosotros' element={<Nosotros/>}/>
       </Route>

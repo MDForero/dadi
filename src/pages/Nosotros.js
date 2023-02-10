@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Hacemos from '../components/Hacemos'
-import shape from "../images/home-bottom-shape.png"
-import inicio from "../images/web-programming.png"
+import shape from "../assets/home-bottom-shape.png"
+import inicio from "../assets/web-programming.png"
 
 
 const Nosotros = () => {

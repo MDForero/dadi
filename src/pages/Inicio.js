@@ -1,17 +1,18 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import shape from "../images/home-bottom-shape.png"
-import inicio from "../images/web-programming.png"
-import atencion from "../images/atencion-cliente.png"
-import bugs from "../images/bug.png"
-import responsive from "../images/responsive.png"
+import shape from "../assets/home-bottom-shape.png"
+import inicio from "../assets/web-programming.png"
+import atencion from "../assets/atencion-cliente.png"
+import bugs from "../assets/bug.png"
+import responsive from "../assets/responsive.png"
 import Packages from '../components/Packages'
 import Services from '../components/Services'
 import Companies from '../components/Companies'
-import hacemos from "../images/quienes somos.jpg"
-import hacemos2 from "../images/group-of-people-working-on-website-template (1).jpg"
+import hacemos from "../assets/quienes somos.jpg"
+import hacemos2 from "../assets/group-of-people-working-on-website-template (1).jpg"
 import Hacemos from '../components/Hacemos'
 import { Link } from 'react-router-dom'
+import Video from '../components/Video'
 
 const Inicio = () => {
   return (
@@ -53,8 +54,6 @@ const Inicio = () => {
           </article>
         </section>
       </div>
-      <div className='section'>
-
       <section className='section flex-around-center'> 
           <article className='w-600'> 
             <h1>La calidad de nuestro servicio es excepcional</h1>
@@ -65,7 +64,7 @@ const Inicio = () => {
             <img  src={hacemos2}/>
           </figure>
       </section>
-      </div>
+      <Video/>
       
         <Services />
       

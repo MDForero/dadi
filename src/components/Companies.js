@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import { companies } from '../images/data'
+import { companies } from '../assets/data'
 
 const Companies = () => {
   return (

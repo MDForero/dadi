@@ -330,7 +330,7 @@ p {
   background-color: rgb(240, 243, 246);
   border-radius: 4px;
   box-shadow: 10px 10px 10px rgb(192, 192, 192);
-  list-style-image: url(./images/link.png);
+  list-style-image: url(./assets/link.png);
 }
 
 .price {
@@ -402,27 +402,27 @@ img {
 }
 
 #contacto {
-  background: url("images/Contacto.jpg");
+  background: url("assets/Contacto.jpg");
   background-size: cover;
   color: whiter;
 }
 
 #casos {
-  background: url("images/casos.jpg");
+  background: url("assets/casos.jpg");
   background-size: cover;
   color: white;
   background-size: cover;
 }
 
 #nosotros {
-  background: url("images/quienes\ somos.jpg") no-repeat;
+  background: url("assets/quienes\ somos.jpg") no-repeat;
   background-size: cover;
   background-position-y: 50%;
   color: white;
 }
 
 #servicios {
-  background: url("images/servicios.jpg");
+  background: url("assets/servicios.jpg");
   background-size: cover;
 }
 
