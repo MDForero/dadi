@@ -5,7 +5,9 @@ import drone from "../assets/silueta-hombre-pilotando-avion-no-tripulado-al-atar
 
 const Video = () => {
     return (
-        <video src={video} autoPlay muted loop poster={drone}></video>
+        <video  autoPlay muted loop poster={drone}>
+            <source src={video} type='video/mp4'/>
+        </video>
     )
 }
 
