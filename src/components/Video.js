@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import video from "../assets/video-drone.mp4"
+import video from "../assets/video-drone.h264"
 
 const Video = () => {
     return (
