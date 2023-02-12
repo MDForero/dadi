@@ -41,43 +41,43 @@ const VideoDrone = () => {
   
               <ul>
                 <li>30 min de vuelo con el drone</li> 
-                <li>Sesión de aproximadamente 1 hora</li> 
+                <li>Sesión de aproximadamente 60 minutos</li> 
                 <li>Video en drone 4k de alta definición</li> 
                 <li>Fotografía aérea hasta 48MP de alta resolución</li> 
                 <li>Entrega de videos y fotografías hechas</li> 
                 <li>Este paquete incluye edición básica de video con música de fondo y títulos.</li>
               </ul>
-              <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de landing page" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
+              <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en la toma de video y fotografía con drone" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
             </article>
             <article className='package translateY'>
             <div className='title'>
                 <h6>Paquete básico</h6>
-                <h1>300.000$ </h1> 
+                <h1>450.000$ </h1> 
               </div>
               <ul>
-                <li>Todo lo incluido en el paquete básico</li>
-                <li>Galería de imágenes o productos</li>
-                <li>Integración de un blog para publicar contenido actualizado</li>
-                <li>Integración de las redes sociales</li>
-                <li>Integración de una tienda en línea con carrito de compras</li>
-                <li>Optimización para motores de búsqueda (SEO) avanzada</li>
+              <li>60 min de vuelo con el drone</li> 
+                <li>Sesión de aproximadamente noventa minutos </li> 
+                <li>Video en drone 4k de alta definición</li> 
+                <li>Fotografía aérea hasta 48MP de alta resolución</li> 
+                <li>Entrega de videos y fotografías hechas</li> 
+                <li>Este paquete incluye edición básica de video con música de fondo y títulos.</li>
               </ul>
-              <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de pagina web" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
+              <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en la toma de video y fotografía con drone" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
             </article>
             <article className="package translateY">
             <div className='title'>
                 <h6>Paquete básico</h6>
-                <h1>300.000$ </h1> 
+                <h1>550.000$ </h1> 
               </div>
               <ul>
-                <li>Todo lo incluido en los paquetes básico e intermedio</li>
-                <li>Página personalizada para cada sección de su sitio</li>
-                <li>Integración de funcionalidades personalizadas (por ejemplo, una sección de FAQ, una sección de recursos, etc.)</li>
-                <li>Integración de un sistema de seguimiento de clientes y análisis de datos</li>
-                <li>Integración de un sistema de correo electrónico marketing</li>
-                <li>Optimización para motores de búsqueda (SEO) avanzada y monitoreo continuo</li>
+              <li>90 min de vuelo con el drone</li> 
+                <li>Sesión de aproximadamente 120 minutos</li> 
+                <li>Video en drone 4k de alta definición</li> 
+                <li>Fotografía aérea hasta 48MP de alta resolución</li> 
+                <li>Entrega de videos y fotografías hechas</li> 
+                <li>Este paquete incluye edición básica de video con música de fondo y títulos.</li>
               </ul>
-              <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en el servicio de web avanzada" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
+              <a href="https://api.whatsapp.com/send?phone=573103433298&text=Hola me encuentro interesado en la toma de video y fotografía con drone" target="_blank" className='btn btn-outline-danger btn-package'><strong>Ordena ya!!</strong></a>
             </article>
           </section>
         </div>
