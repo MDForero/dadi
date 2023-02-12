@@ -38,7 +38,6 @@ const VideoDrone = () => {
                 <h6>Paquete básico</h6>
                 <h1>300.000$ </h1> 
               </div>
-  
               <ul>
                 <li>30 min de vuelo con el drone</li> 
                 <li>Sesión de aproximadamente 60 minutos</li> 
