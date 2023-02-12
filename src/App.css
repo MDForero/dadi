@@ -30,7 +30,15 @@ h6 {
   text-align: center;
 }
 
-
+.blog{
+  max-width: 825px;
+  margin: 0px auto;
+}
+.blog p, li {
+  word-spacing: 1px;
+  letter-spacing: .5px;
+  font-size: 1.2rem;
+}
 
 .transparent {
   background-color: transparent;
