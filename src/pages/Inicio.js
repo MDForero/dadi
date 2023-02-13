@@ -19,9 +19,9 @@ const Inicio = () => {
     <div>
       <div id='inicio'>
         <section className='somos'>
-          <div>
-            <h1>Nuestro trabajo destaca por:</h1>
-            <p>ser una empresa de desarrollo web, ubicada en Casanare. Nuestra misión es ayudar a </p>
+          <div className='w-400'>
+            <h1>Empresa de soluciones digitales y servicios comerciales</h1>
+            <p>En DADI Soluciones Digitales, somos una empresa especializada en el desarrollo web, con el objetivo de transformar la región a través de soluciones innovadoras y de alta calidad en el ámbito digital.</p>
             <Link to="contacto" className='btn btn-success'>Contáctenos</Link>
             <Link to="servicios" className='btn btn-success'>Servicios</Link>
           </div>
@@ -54,9 +54,9 @@ const Inicio = () => {
           </article>
         </section>
       </div>
-      <section className='section flex-around-center'> 
-          <article className='w-600'> 
+      <section className='section flex-around-center blog'> 
             <h1>La calidad de nuestro servicio es excepcional</h1>
+          <article className='w-600'> 
             <p>Ya que somos un equipo que está en constante preparación, lo que nos permite estar a la vanguardia y así poder ofrecerle un producto de alto valor a un precio competitivo</p>
             <p>Además, nuestra dedicación a la excelencia y la innovación nos permite estar siempre un paso adelante de la competencia, ofreciéndole a nuestros clientes soluciones eficientes y de alta calidad. Estamos comprometidos a mantener un alto estándar de calidad en todo lo que hacemos, desde la investigación y desarrollo hasta la entrega y el servicio al cliente. Con nuestro enfoque en la satisfacción del cliente y la mejora continua, podemos asegurarle una experiencia única y memorable.</p>
           </article>

@@ -20,7 +20,7 @@ const Hacemos = () => {
     }, [])
 
     return (
-        <><section className={'hacemos section animate__animated '+ effect} id="hacemos">
+        <><section className={'hacemos section blog animate__animated '+ effect} id="hacemos">
             <article>
                 <h1>Nosotros destacamos por ser</h1>
                 <p>Un equipo de profesionales altamente <strong>cualificados, enérgicos y dedicados</strong> que se comprometen a ofrecer un servicio excepcional. Tanto si se trata de crear nuevos sitios Web que se adapten perfectamente a sus necesidades como de reconstruir sitios existentes para que cumplan sus exigentes estándares, siempre antepondremos su éxito.</p>

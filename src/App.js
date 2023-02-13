@@ -11,7 +11,6 @@ import VideoDrone from './pages/services/VideoDrone';
 import Seo from './pages/services/Seo';
 import Commerce from './pages/services/E-commerce';
 import Desarrollo from './pages/services/Desarrollo';
-import Marketing from './pages/services/Marketing';
 import Mantenimiento from './pages/services/Mantenimiento';
 
 export const App = () => {
@@ -25,7 +24,6 @@ export const App = () => {
         <Route path="servicios/seo" element={<Seo/>}/>
         <Route path="servicios/e-commerce" element={<Commerce/>}/>
         <Route path="servicios/desarrollo-web" element={<Desarrollo/>}/>
-        <Route path="servicios/marketing-digital" element={<Marketing/>}/>
         <Route path="servicios/mantenimiento-web" element={<Mantenimiento/>}/>
         <Route path="casos-de-exito" element={<Casos/>}/>
         <Route path='nosotros' element={<Nosotros/>}/>

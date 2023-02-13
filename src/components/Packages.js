@@ -22,7 +22,7 @@ const Packages = () => {
     }, []);
     return (<>
         <div className='section packages' id="packages" style={{
-            transition: "opacity 2s",
+            transition: "opacity 1s",
             opacity: isVisible ? 1 : 0
         }}>
             <div className='title'>
