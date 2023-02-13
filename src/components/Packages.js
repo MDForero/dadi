@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Packages = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.disconnect();
+                }
+            });
+        });
+
+        observer.observe(document.querySelector("#packages"));
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
     return (<>
-        <div className='section packages'>
+        <div className='section packages' id="packages" style={{
+            transition: "opacity 2s",
+            opacity: isVisible ? 1 : 0
+        }}>
             <div className='title'>
                 <h6>Elige un paquete</h6>
                 <h1>Paquetes</h1>
